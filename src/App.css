@@ -1,0 +1,12 @@
+.container{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #252525;
+}
+
+h3{
+  color: #E2EBF0;
+}
