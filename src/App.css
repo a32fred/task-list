@@ -1,5 +1,4 @@
 .App{
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +6,7 @@
 }
 
 .container{
-  width: 400px;
+  margin-top: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +22,45 @@ h3, .task{
 
 .task{
   font-size: 1.3em;
-  margin: 12px;
+  margin: 5px;
+}
+
+hr{
+  border-color: #808080;
 }
 
 h3{
   font-size: 2.3em;
+  margin: auto 30px;
   margin-bottom: 1em;
+}
+
+.addCampo{
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.addCampo input[type = "text"]{
+  background: transparent;
+  color: #E2EBF0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.addCampo button{
+  padding: 3px 8px;
+  border: none;
+  background: #E2EBF0;
+}
+
+.container-task-area{
+  display: flex;
+  flex-direction: column
+}
+
+.task-area{
+  margin: 10px;
 }
