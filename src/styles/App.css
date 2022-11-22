@@ -20,6 +20,12 @@ h3, .task{
   color: #E2EBF0
 }
 
+h3{
+  font-size: 2.3em;
+  margin: auto 30px;
+  margin-bottom: 1em;
+}
+
 .task{
   font-size: 1.3em;
   margin: 5px;
@@ -29,11 +35,7 @@ hr{
   border-color: #808080;
 }
 
-h3{
-  font-size: 2.3em;
-  margin: auto 30px;
-  margin-bottom: 1em;
-}
+
 
 .addCampo{
   margin-bottom: 30px;
