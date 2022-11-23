@@ -1,0 +1,16 @@
+.task-area{
+    height: 50px;
+    width: 70%;
+
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 
+}
+
+input.chacBoxSize{
+    width: 22px;
+    height: 22px;
+}

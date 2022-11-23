@@ -1,4 +1,5 @@
-import '../styles/App.css'
+import './App.css'
+import Card from '../Card'
 import { useState } from 'react'
 import ShortUniqueId from 'short-unique-id'
 
@@ -42,12 +43,7 @@ function App() {
         </div>
 
         {todos.map((todo) => (
-          <div className="container-task-area" key={todo.id}>
-            <div className="task-area">
-              <label htmlFor="task" className="task">{ todo.task }</label>
-              <input type="checkbox" id="task" />
-            </div>
-          </div>
+          <Card task={todo.task} key={todo.id}/>
         ))}
 
       </div>

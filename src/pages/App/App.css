@@ -56,13 +56,14 @@ hr{
   padding: 3px 8px;
   border: none;
   background: #E2EBF0;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-.container-task-area{
-  display: flex;
-  flex-direction: column
+.addCampo button:hover{
+  padding: 3px 8px;
+  border: none;
+  background: gray;
+  cursor: pointer;
 }
 
-.task-area{
-  margin: 10px;
-}
